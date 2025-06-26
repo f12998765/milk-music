@@ -11,6 +11,7 @@ on:
     paths-ignore:
       - README.md
       - README_CN.md
+  workflow_dispatch: # 添加这一行
 
 jobs:
   build-web:
